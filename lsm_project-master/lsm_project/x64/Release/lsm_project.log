@@ -1,0 +1,65 @@
+﻿Build started 5/8/2020 7:54:23 PM.
+     1>Project "C:\Users\liang\Downloads\Compressed\lsm_project-master\lsm_project\lsm_project.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"..\asio-1.12.2\include\\" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D ASIO_STANDALONE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt db.cpp logClass.cpp lsm_project.cpp mlog.cpp murmurhash.cpp simple_benchmark.cpp stdafx.cpp
+         db.cpp
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(428): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(429): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(491): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>db.cpp(410): warning C4244: '=' : conversion from 'time_t' to 'long', possible loss of data
+     1>db.cpp(431): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>db.cpp(646): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\bloomFilter.h(111): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\bloomFilter.h(97) : while compiling class template member function 'BloomFilter<_kytp_>::BloomFilter(unsigned int,double)'
+                 c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\db.hpp(135) : see reference to function template instantiation 'BloomFilter<_kytp_>::BloomFilter(unsigned int,double)' being compiled
+                 c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\db.hpp(135) : see reference to class template instantiation 'BloomFilter<_kytp_>' being compiled
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\utility(167): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 db.cpp(206) : see reference to function template instantiation 'std::pair<long,int> &std::pair<long,int>::operator =<long,unsigned __int64>(std::pair<long,unsigned __int64> &&)' being compiled
+                 db.cpp(206) : see reference to function template instantiation 'std::pair<long,int> &std::pair<long,int>::operator =<long,unsigned __int64>(std::pair<long,unsigned __int64> &&)' being compiled
+         logClass.cpp
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(428): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(429): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(491): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         lsm_project.cpp
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(428): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(429): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(491): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\threadHelper.h(41): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\threadHelper.h(68): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\simple_benchmark.cpp(14): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>lsm_project.cpp(138): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\bloomFilter.h(111): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\bloomFilter.h(97) : while compiling class template member function 'BloomFilter<_kytp_>::BloomFilter(unsigned int,double)'
+                 c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\db.hpp(135) : see reference to function template instantiation 'BloomFilter<_kytp_>::BloomFilter(unsigned int,double)' being compiled
+                 c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\db.hpp(135) : see reference to class template instantiation 'BloomFilter<_kytp_>' being compiled
+         mlog.cpp
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(428): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(429): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(491): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         murmurhash.cpp
+         simple_benchmark.cpp
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(428): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(429): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\def.h(491): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>simple_benchmark.cpp(14): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\bloomFilter.h(111): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\bloomFilter.h(97) : while compiling class template member function 'BloomFilter<_kytp_>::BloomFilter(unsigned int,double)'
+                 c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\db.hpp(135) : see reference to function template instantiation 'BloomFilter<_kytp_>::BloomFilter(unsigned int,double)' being compiled
+                 c:\users\liang\downloads\compressed\lsm_project-master\lsm_project\db.hpp(135) : see reference to class template instantiation 'BloomFilter<_kytp_>' being compiled
+         stdafx.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\liang\Downloads\Compressed\lsm_project-master\x64\Release\lsm_project.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\liang\Downloads\Compressed\lsm_project-master\x64\Release\lsm_project.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\liang\Downloads\Compressed\lsm_project-master\x64\Release\lsm_project.lib" /MACHINE:X64 x64\Release\db.obj
+         x64\Release\logClass.obj
+         x64\Release\lsm_project.obj
+         x64\Release\mlog.obj
+         x64\Release\murmurhash.obj
+         x64\Release\simple_benchmark.obj
+         x64\Release\stdafx.obj
+         Generating code
+         Finished generating code
+         lsm_project.vcxproj -> C:\Users\liang\Downloads\Compressed\lsm_project-master\x64\Release\lsm_project.exe
+     1>Done Building Project "C:\Users\liang\Downloads\Compressed\lsm_project-master\lsm_project\lsm_project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.88

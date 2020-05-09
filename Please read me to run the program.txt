@@ -1,0 +1,4 @@
+1. In Windows System Open CMD/Terminal
+2. Usd cd command go to lsm_project-master\x64\Release this path (you will find lsm_project.exe and client_multiThread.exe in this folder)
+3. Type "lsm_project server" in command line to start the database local server
+4. Double click client_multiThread.exe to start the user client, there is usage in client_multiThread.exe to operate the database 
